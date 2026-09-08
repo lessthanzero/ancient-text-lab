@@ -1,0 +1,10 @@
+{
+  "id": "fixture-phaistos-document",
+  "source_artifact_id": "fixture-phaistos-source",
+  "script": "fixture-phaistos",
+  "transformations": [{"name": "fixture-authoring", "version": "1", "parameters": {}}],
+  "units": [
+    {"id": "fixture-phaistos-u1", "document_id": "fixture-phaistos-document", "position": 0, "signs": ["P02", "P12", "P31"], "annotations": {"synthetic": true}},
+    {"id": "fixture-phaistos-u2", "document_id": "fixture-phaistos-document", "position": 1, "signs": ["P12", "P31"], "annotations": {"synthetic": true}}
+  ]
+}

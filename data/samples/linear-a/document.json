@@ -1,0 +1,10 @@
+{
+  "id": "fixture-linear-a-document",
+  "source_artifact_id": "fixture-linear-a-source",
+  "script": "fixture-linear-a",
+  "transformations": [{"name": "fixture-authoring", "version": "1", "parameters": {}}],
+  "units": [
+    {"id": "fixture-linear-a-u1", "document_id": "fixture-linear-a-document", "position": 0, "signs": ["A01", "A04", "A06"], "annotations": {"synthetic": true}},
+    {"id": "fixture-linear-a-u2", "document_id": "fixture-linear-a-document", "position": 1, "signs": ["A04", "A06", "A01"], "annotations": {"synthetic": true}}
+  ]
+}

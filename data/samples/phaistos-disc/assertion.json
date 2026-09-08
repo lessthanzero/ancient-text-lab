@@ -1,0 +1,3 @@
+{
+  "id": "fixture-phaistos-assertion", "kind": "transcription", "status": "proposed", "claim": "Fixture sequence is normalized.", "evidence_ids": ["fixture-phaistos-evidence"], "confidence": 1.0, "verification_evidence_ids": [], "promoted_from_assertion_id": null
+}

@@ -1,0 +1,9 @@
+[project]
+id = "etruscan"
+title = "Etruscan"
+status = "reserved"
+
+[data]
+manifest = "data/manifest.json"
+schema_version = "v1"
+

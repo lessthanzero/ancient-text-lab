@@ -1,0 +1,11 @@
+{
+  "schema_version": "v1",
+  "artifacts": [{
+    "id": "fixture-linear-a-source",
+    "uri": "fixture://linear-a/source.txt",
+    "sha256": "a621c958672d21b4c24102750fcdce21b7f1c0d230c2b47a833497756f4f20c0",
+    "media_type": "text/plain",
+    "license": "MIT",
+    "artifact_kind": "synthetic_fixture"
+  }]
+}
