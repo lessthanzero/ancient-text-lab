@@ -1,0 +1,2 @@
+{"id":"linear-b-fixture-train-01","split":"train","group_id":"family-rosette","features":{"source_sign":"LA_FIXTURE_ROSETTE","visual_features":[1,0,1],"distribution_profile":"initial"},"source_artifact_ids":["linear-b-transfer-fixture"]}
+{"id":"linear-b-fixture-test-01","split":"test","group_id":"family-angular","features":{"source_sign":"LA_FIXTURE_ANGULAR","visual_features":[0,1,1],"distribution_profile":"final"},"source_artifact_ids":["linear-b-transfer-fixture"]}

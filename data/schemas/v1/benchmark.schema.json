@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ancient-text-lab.example/schemas/v1/benchmark.schema.json",
+  "title": "Public benchmark case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "split", "group_id", "features", "source_artifact_ids"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "split": {"enum": ["train", "test"]},
+    "group_id": {"type": "string", "minLength": 1},
+    "features": {"type": "object", "not": {"anyOf": [{"required": ["gold"]}, {"required": ["gold_label"]}, {"required": ["label"]}, {"required": ["target"]}, {"required": ["answer"]}]}},
+    "source_artifact_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+  }
+}

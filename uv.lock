@@ -16,7 +16,7 @@ dev = [
 
 [[package]]
 name = "ancient-text-lab"
-version = "0.1.0"
+version = "0.2.0"
 source = { editable = "packages/core" }
 dependencies = [
     { name = "numpy" },

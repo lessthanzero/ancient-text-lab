@@ -88,9 +88,10 @@ def shuffle_within_units(
     for _ in range(iterations):
         samples.append(
             tuple(
-                TokenSequence(unit_id=sequence.unit_id, tokens=tuple(rng.permutation(sequence.tokens)))
+                TokenSequence(
+                    unit_id=sequence.unit_id, tokens=tuple(rng.permutation(sequence.tokens))
+                )
                 for sequence in materialized
             )
         )
     return tuple(samples)
-

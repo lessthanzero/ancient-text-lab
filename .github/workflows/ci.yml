@@ -13,7 +13,6 @@ jobs:
         with:
           python-version: '3.12'
       - run: uv sync --all-packages --group dev
-      - run: uv run --package ancient-text-lab ruff check packages tests
+      - run: uv run --package ancient-text-lab ruff check packages tests scripts
       - run: uv run --package ancient-text-lab pytest
       - run: uv build --package ancient-text-lab
-

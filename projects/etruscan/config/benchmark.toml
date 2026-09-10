@@ -1,0 +1,11 @@
+[benchmark]
+id = "etruscan-morphology-fixture"
+task = "held-out segmentation and bounded morphology label recovery"
+split_seed = 42
+input_cases = "../benchmarks/morphology/public_cases.jsonl"
+gold_labels = "../benchmarks/morphology/gold_labels.jsonl"
+
+[policy]
+target = "source-cited morphology labels only"
+prohibited_claim = "No translation label is gold without a separately versioned benchmark."
+required_controls = ["character-ngram", "frequency", "abstention"]

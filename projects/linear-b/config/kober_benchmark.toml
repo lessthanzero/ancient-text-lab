@@ -1,0 +1,12 @@
+[benchmark]
+id = "linear-b-kober-grid-reconstruction"
+task = "unsupervised phonological syllabary grid reconstruction"
+split_seed = 42
+input_cases = "../benchmarks/kober_grid/public_cases.jsonl"
+gold_labels = "../benchmarks/kober_grid/gold_labels.jsonl"
+words_corpus = "../benchmarks/kober_grid/words.jsonl"
+
+[policy]
+target = "Ventris-Chadwick (1953) consonant-vowel grid"
+prohibited_claim = "Unsupervised grid clustering does not establish target language semantics."
+required_controls = ["random-cluster-permutation", "frequency-matched-null"]

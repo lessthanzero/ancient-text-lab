@@ -1,0 +1,11 @@
+[benchmark]
+id = "linear-a-to-linear-b-transfer-fixture"
+task = "citation-backed formal sign correspondence recovery"
+split_seed = 42
+input_cases = "../benchmarks/transfer/public_cases.jsonl"
+gold_labels = "../benchmarks/transfer/gold_labels.jsonl"
+
+[policy]
+target = "known Linear B sign identity/value"
+prohibited_claim = "A benchmark result does not establish a Linear A reading."
+required_controls = ["random-permutation", "visual-only", "text-only"]

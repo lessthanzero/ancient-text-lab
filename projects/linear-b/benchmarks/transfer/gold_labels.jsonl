@@ -1,0 +1,2 @@
+{"case_id":"linear-b-fixture-train-01","value":"B_FIXTURE_A","confidence":1.0,"source_artifact_ids":["linear-b-transfer-fixture"],"rationale":"Synthetic fixture; no historical correspondence is asserted."}
+{"case_id":"linear-b-fixture-test-01","value":"B_FIXTURE_TE","confidence":1.0,"source_artifact_ids":["linear-b-transfer-fixture"],"rationale":"Synthetic fixture; no historical correspondence is asserted."}

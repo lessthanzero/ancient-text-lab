@@ -1,0 +1,396 @@
+{
+  "schema_version": "v1",
+  "dataset_id": "aegean-cypriot-homologues-canonical",
+  "description": "Canonical cross-script sign homologues across Aegean and Cypriot Bronze/Iron Age writing systems.",
+  "scripts": [
+    {
+      "id": "chic",
+      "name": "Cretan Hieroglyphic",
+      "chronology_bce": [-2100, -1700],
+      "is_deciphered": false,
+      "canonical_sign_count": 118,
+      "primary_language": null
+    },
+    {
+      "id": "linear_a",
+      "name": "Linear A (Minoan)",
+      "chronology_bce": [-1800, -1450],
+      "is_deciphered": false,
+      "canonical_sign_count": 87,
+      "primary_language": null
+    },
+    {
+      "id": "linear_b",
+      "name": "Linear B (Mycenaean Greek)",
+      "chronology_bce": [-1450, -1200],
+      "is_deciphered": true,
+      "canonical_sign_count": 87,
+      "primary_language": "Mycenaean Greek"
+    },
+    {
+      "id": "cypro_minoan",
+      "name": "Cypro-Minoan (CM1-3)",
+      "chronology_bce": [-1550, -1050],
+      "is_deciphered": false,
+      "canonical_sign_count": 80,
+      "primary_language": null
+    },
+    {
+      "id": "cypriot_syllabic",
+      "name": "Classical Cypriot Syllabary",
+      "chronology_bce": [-1100, -300],
+      "is_deciphered": true,
+      "canonical_sign_count": 56,
+      "primary_language": "Arcadocypriot Greek"
+    }
+  ],
+  "lineages": [
+    {
+      "source_script_id": "chic",
+      "target_script_id": "linear_a",
+      "palaeographic_continuity": 0.85,
+      "historical_notes": "Protopalatial to Neopalatial administrative cursive transition."
+    },
+    {
+      "source_script_id": "linear_a",
+      "target_script_id": "linear_b",
+      "palaeographic_continuity": 0.92,
+      "historical_notes": "Mycenaean Greek palatial adaptation at Knossos (LM II)."
+    },
+    {
+      "source_script_id": "linear_a",
+      "target_script_id": "cypro_minoan",
+      "palaeographic_continuity": 0.78,
+      "historical_notes": "Late Bronze Age maritime transmission to Alashiya (Cyprus)."
+    },
+    {
+      "source_script_id": "cypro_minoan",
+      "target_script_id": "cypriot_syllabic",
+      "palaeographic_continuity": 0.82,
+      "historical_notes": "Post-collapse Iron Age regional survival on Cyprus."
+    }
+  ],
+  "homologues": [
+    {
+      "canonical_name": "DOUBLE_AXE",
+      "sign_ids": {
+        "chic": "CHIC-042",
+        "linear_a": "AB08",
+        "linear_b": "B08",
+        "cypro_minoan": "CM-01",
+        "cypriot_syllabic": "CS-a"
+      },
+      "pictorial_origin": "Double-headed ceremonial labrys axe",
+      "stroke_counts": {
+        "chic": 8,
+        "linear_a": 4,
+        "linear_b": 4,
+        "cypro_minoan": 3,
+        "cypriot_syllabic": 3
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "a",
+        "cypriot_syllabic": "a"
+      },
+      "projected_phonetics": {
+        "linear_a": "a",
+        "cypro_minoan": "a"
+      },
+      "citations": ["Olivier 1989", "GORILA V", "Ventris & Chadwick 1953", "Masson 1983"],
+      "confidence_tier": "E4 (Direct Formal Homology)"
+    },
+    {
+      "canonical_name": "CROSS_ROSETTE",
+      "sign_ids": {
+        "chic": "CHIC-070",
+        "linear_a": "AB02",
+        "linear_b": "B02",
+        "cypro_minoan": "CM-05",
+        "cypriot_syllabic": "CS-lo"
+      },
+      "pictorial_origin": "Crux decussata / Rosette",
+      "stroke_counts": {
+        "chic": 5,
+        "linear_a": 2,
+        "linear_b": 2,
+        "cypro_minoan": 2,
+        "cypriot_syllabic": 2
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "ro",
+        "cypriot_syllabic": "lo"
+      },
+      "projected_phonetics": {
+        "linear_a": "ro",
+        "cypro_minoan": "lo"
+      },
+      "citations": ["Olivier 1989", "Egetmeyer 2010"],
+      "confidence_tier": "E4 (Direct Formal Homology)"
+    },
+    {
+      "canonical_name": "TREE_BRANCH",
+      "sign_ids": {
+        "chic": "CHIC-025",
+        "linear_a": "AB04",
+        "linear_b": "B04",
+        "cypro_minoan": "CM-19",
+        "cypriot_syllabic": "CS-te"
+      },
+      "pictorial_origin": "Vegetal branch / stylized tree",
+      "stroke_counts": {
+        "chic": 7,
+        "linear_a": 3,
+        "linear_b": 3,
+        "cypro_minoan": 3,
+        "cypriot_syllabic": 3
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "te",
+        "cypriot_syllabic": "te"
+      },
+      "projected_phonetics": {
+        "linear_a": "te",
+        "cypro_minoan": "te"
+      },
+      "citations": ["Olivier 1989", "Steele 2014"],
+      "confidence_tier": "E4 (Direct Formal Homology)"
+    },
+    {
+      "canonical_name": "DOOR_GATE",
+      "sign_ids": {
+        "chic": "CHIC-038",
+        "linear_a": "AB05",
+        "linear_b": "B05"
+      },
+      "pictorial_origin": "Architectural door frame / gate",
+      "stroke_counts": {
+        "chic": 6,
+        "linear_a": 3,
+        "linear_b": 3
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "to"
+      },
+      "projected_phonetics": {
+        "linear_a": "to"
+      },
+      "citations": ["Godart & Olivier 1985 GORILA V"],
+      "confidence_tier": "E4 (Direct Formal Homology)"
+    },
+    {
+      "canonical_name": "ARROW_SPEAR",
+      "sign_ids": {
+        "chic": "CHIC-049",
+        "linear_a": "AB37",
+        "linear_b": "B37",
+        "cypro_minoan": "CM-23",
+        "cypriot_syllabic": "CS-ti"
+      },
+      "pictorial_origin": "Arrowhead with barb and shaft",
+      "stroke_counts": {
+        "chic": 5,
+        "linear_a": 3,
+        "linear_b": 3,
+        "cypro_minoan": 3,
+        "cypriot_syllabic": 3
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "ti",
+        "cypriot_syllabic": "ti"
+      },
+      "projected_phonetics": {
+        "linear_a": "ti",
+        "cypro_minoan": "ti"
+      },
+      "citations": ["Olivier 1989", "Valerio 2016"],
+      "confidence_tier": "E4 (Direct Formal Homology)"
+    },
+    {
+      "canonical_name": "TRIDENT",
+      "sign_ids": {
+        "chic": "CHIC-057",
+        "linear_a": "AB28",
+        "linear_b": "B28",
+        "cypro_minoan": "CM-33",
+        "cypriot_syllabic": "CS-i"
+      },
+      "pictorial_origin": "Three-pronged fork / trident",
+      "stroke_counts": {
+        "chic": 6,
+        "linear_a": 3,
+        "linear_b": 3,
+        "cypro_minoan": 3,
+        "cypriot_syllabic": 3
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "i",
+        "cypriot_syllabic": "i"
+      },
+      "projected_phonetics": {
+        "linear_a": "i",
+        "cypro_minoan": "i"
+      },
+      "citations": ["Masson 1983", "Olivier 1989"],
+      "confidence_tier": "E4 (Direct Formal Homology)"
+    },
+    {
+      "canonical_name": "GRAIN_STALK",
+      "sign_ids": {
+        "chic": "CHIC-028",
+        "linear_a": "AB30",
+        "linear_b": "B30",
+        "cypro_minoan": "CM-41",
+        "cypriot_syllabic": "CS-ta"
+      },
+      "pictorial_origin": "Cereal spike / barley ear",
+      "stroke_counts": {
+        "chic": 8,
+        "linear_a": 4,
+        "linear_b": 4,
+        "cypro_minoan": 3,
+        "cypriot_syllabic": 3
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "ni",
+        "cypriot_syllabic": "ta"
+      },
+      "projected_phonetics": {
+        "linear_a": "ni",
+        "cypro_minoan": "ta"
+      },
+      "citations": ["GORILA V", "Steele 2014"],
+      "confidence_tier": "E3 (Divergent Aegean/Cypriot Development)"
+    },
+    {
+      "canonical_name": "FLYING_BIRD",
+      "sign_ids": {
+        "chic": "CHIC-016",
+        "linear_a": "AB81",
+        "linear_b": "B81",
+        "cypro_minoan": "CM-70",
+        "cypriot_syllabic": "CS-ku"
+      },
+      "pictorial_origin": "Bird in flight with outspread wings",
+      "stroke_counts": {
+        "chic": 8,
+        "linear_a": 4,
+        "linear_b": 4,
+        "cypro_minoan": 3,
+        "cypriot_syllabic": 3
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "ku",
+        "cypriot_syllabic": "ku"
+      },
+      "projected_phonetics": {
+        "linear_a": "ku",
+        "cypro_minoan": "ku"
+      },
+      "citations": ["Olivier 1989", "Valerio 2016"],
+      "confidence_tier": "E4 (Direct Formal Homology)"
+    },
+    {
+      "canonical_name": "SHIP_PROW",
+      "sign_ids": {
+        "chic": "CHIC-040",
+        "linear_a": "AB54",
+        "linear_b": "B54",
+        "cypro_minoan": "CM-12"
+      },
+      "pictorial_origin": "Aegean longship prow and stern",
+      "stroke_counts": {
+        "chic": 7,
+        "linear_a": 3,
+        "linear_b": 3,
+        "cypro_minoan": 3
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "wa"
+      },
+      "projected_phonetics": {
+        "linear_a": "wa",
+        "cypro_minoan": "wa"
+      },
+      "citations": ["Godart & Olivier 1985"],
+      "confidence_tier": "E4 (Direct Formal Homology)"
+    },
+    {
+      "canonical_name": "TROWEL_AXE",
+      "sign_ids": {
+        "chic": "CHIC-044",
+        "linear_a": "AB01",
+        "linear_b": "B01",
+        "cypro_minoan": "CM-02",
+        "cypriot_syllabic": "CS-da"
+      },
+      "pictorial_origin": "Mason's trowel / curved blade",
+      "stroke_counts": {
+        "chic": 6,
+        "linear_a": 3,
+        "linear_b": 3,
+        "cypro_minoan": 2,
+        "cypriot_syllabic": 2
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "da",
+        "cypriot_syllabic": "da"
+      },
+      "projected_phonetics": {
+        "linear_a": "da",
+        "cypro_minoan": "da"
+      },
+      "citations": ["Ventris & Chadwick 1953", "Masson 1983"],
+      "confidence_tier": "E4 (Direct Formal Homology)"
+    },
+    {
+      "canonical_name": "BEE_INSECT",
+      "sign_ids": {
+        "chic": "CHIC-020",
+        "linear_a": "AB77",
+        "linear_b": "B77",
+        "cypro_minoan": "CM-50",
+        "cypriot_syllabic": "CS-ka"
+      },
+      "pictorial_origin": "Honeybee / wasp with legs",
+      "stroke_counts": {
+        "chic": 9,
+        "linear_a": 4,
+        "linear_b": 4,
+        "cypro_minoan": 3,
+        "cypriot_syllabic": 3
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "ka",
+        "cypriot_syllabic": "ka"
+      },
+      "projected_phonetics": {
+        "linear_a": "ka",
+        "cypro_minoan": "ka"
+      },
+      "citations": ["Olivier 1989", "Egetmeyer 2010"],
+      "confidence_tier": "E4 (Direct Formal Homology)"
+    },
+    {
+      "canonical_name": "SISTROUM_RATTLE",
+      "sign_ids": {
+        "chic": "CHIC-067",
+        "linear_a": "AB53",
+        "linear_b": "B53"
+      },
+      "pictorial_origin": "Minoan clay sistrum musical rattle",
+      "stroke_counts": {
+        "chic": 7,
+        "linear_a": 3,
+        "linear_b": 3
+      },
+      "ground_truth_phonetics": {
+        "linear_b": "ri"
+      },
+      "projected_phonetics": {
+        "linear_a": "ri"
+      },
+      "citations": ["GORILA V"],
+      "confidence_tier": "E4 (Direct Formal Homology)"
+    }
+  ]
+}

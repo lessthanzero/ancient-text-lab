@@ -48,7 +48,9 @@ def test_seeded_null_samples_are_reproducible_and_preserve_boundaries(sample_nam
     assert first == second
     for null_sample in first:
         assert [item.unit_id for item in null_sample] == [item.unit_id for item in sequences]
-        assert [len(item.tokens) for item in null_sample] == [len(item.tokens) for item in sequences]
+        assert [len(item.tokens) for item in null_sample] == [
+            len(item.tokens) for item in sequences
+        ]
         assert sorted(token for item in null_sample for token in item.tokens) == sorted(
             token for item in sequences for token in item.tokens
         )

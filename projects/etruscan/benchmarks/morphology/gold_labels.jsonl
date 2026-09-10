@@ -1,0 +1,9 @@
+{"case_id":"etruscan-case-tmial","value":"GENITIVE_AL","confidence":1.0,"source_artifact_ids":["etruscan-pyrgi-corpus"],"rationale":"Wallace 2008 p. 45: genitive I/II in -al on dental/vocalic stem"}
+{"case_id":"etruscan-case-esialas","value":"GENITIVE_S","confidence":1.0,"source_artifact_ids":["etruscan-pyrgi-corpus"],"rationale":"Wallace 2008 p. 44: genitive I in -s"}
+{"case_id":"etruscan-case-zilacal","value":"GENITIVE_AL","confidence":1.0,"source_artifact_ids":["etruscan-pyrgi-corpus"],"rationale":"Rix 1991: zilac (magistracy) + genitive -al"}
+{"case_id":"etruscan-case-svalce-pyrgi","value":"PRETERITE_CE","confidence":1.0,"source_artifact_ids":["etruscan-pyrgi-corpus"],"rationale":"Wallace 2008 p. 72: active preterite past tense -ce"}
+{"case_id":"etruscan-case-aisar","value":"PLURAL_AR","confidence":1.0,"source_artifact_ids":["etruscan-llz-corpus"],"rationale":"Wallace 2008 p. 49: inanimate/animate plural in -ar (ais -> aisar)"}
+{"case_id":"etruscan-case-aisas","value":"GENITIVE_S","confidence":1.0,"source_artifact_ids":["etruscan-llz-corpus"],"rationale":"Wallace 2008 p. 44: genitive in -s"}
+{"case_id":"etruscan-case-clenar","value":"PLURAL_AR","confidence":1.0,"source_artifact_ids":["etruscan-cippus-corpus"],"rationale":"Rix 1991: clan -> clenar umlauted animate plural in -ar"}
+{"case_id":"etruscan-case-velthinas","value":"GENITIVE_S","confidence":1.0,"source_artifact_ids":["etruscan-cippus-corpus"],"rationale":"Wallace 2008 p. 44: patronymic genitive in -s"}
+{"case_id":"etruscan-case-svalce-cippus","value":"PRETERITE_CE","confidence":1.0,"source_artifact_ids":["etruscan-cippus-corpus"],"rationale":"Wallace 2008 p. 72: active preterite past tense -ce"}

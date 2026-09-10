@@ -1,0 +1,35 @@
+{
+  "schema_version": "v1",
+  "datasets": [
+    {
+      "id": "linear-b-damos",
+      "source_url": "https://damos.hf.uio.no/about/database/",
+      "revision": "accessed-2026-09-09",
+      "license": "provider terms; manual scholarly access",
+      "access_mode": "manual",
+      "download_url": null,
+      "sha256": null,
+      "notes": "DĀMOS is the scholarly Linear B target-corpus reference. An automated import is prohibited until an export with stable terms and a recorded checksum is available."
+    },
+    {
+      "id": "etruscan-openetruscan",
+      "source_url": "https://doi.org/10.5281/zenodo.20075836",
+      "revision": "Zenodo-20075836",
+      "license": "CC BY 4.0",
+      "access_mode": "manual",
+      "download_url": null,
+      "sha256": null,
+      "notes": "OpenEtruscan is the external Etruscan text/context source. Register a release-file URL and SHA-256 before enabling automatic acquisition."
+    },
+    {
+      "id": "linear-b-kober-triplets",
+      "source_url": "https://archive.org/details/ventris-chadwick-documents-mycenaean-greek",
+      "revision": "Ventris-Chadwick-1953",
+      "license": "Public Domain (Scholarly epigraphic citations)",
+      "access_mode": "manual",
+      "download_url": null,
+      "sha256": null,
+      "notes": "Curated Knossos & Pylos inflectional alternations benchmark based on Alice Kober (1948) triplets and Ventris & Chadwick (1953)."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 [project]
 name = "ancient-text-lab"
-version = "0.1.0"
+version = "0.2.0"
 description = "Reusable corpus, provenance, and sequence-analysis primitives for ancient-text research"
 readme = "README.md"
 requires-python = ">=3.12"

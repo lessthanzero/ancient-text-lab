@@ -1,0 +1,25 @@
+ancient-text-lab — third-party notices
+======================================
+
+Software in this repository is licensed under the MIT License (see LICENSE),
+Copyright (c) 2026 Alexander Katin.
+
+The MIT grant covers original software and original documentation written for
+this project. It does **not** relicense third-party corpora, editions, or media.
+
+Scholarly / external material
+-----------------------------
+- Synthetic fixtures under `data/samples/` and `projects/*/benchmarks/` are
+  original test data and may be treated as MIT unless a file says otherwise.
+- Short epigraphic citation strings and Ventris–Chadwick-style syllabary grids
+  used in benchmarks are factual scholarly references. They are **not** claimed
+  as “Public Domain editions”; modern critical editions remain under their
+  publishers’ terms. Do not treat this repo as a redistribution of those editions.
+- `data/manifests/external-datasets.json` lists external datasets (e.g. DĀMOS,
+  OpenEtruscan). Those corpora are **not** shipped in this repository. Fetch them
+  only under each provider’s own license (OpenEtruscan is typically CC BY 4.0).
+- `data/phylogeny/aegean_cypriot_homologues.json` is a curated working graph with
+  scholarly citations. Continuity scores are exploratory priors, not published
+  consensus measurements.
+
+If you redistribute this project, keep this NOTICE with any data you retain.
